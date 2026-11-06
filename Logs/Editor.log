@@ -1,0 +1,114 @@
+VBCSCompilerPreWarmer: WARNING: Expected Unity analyzer DLL not found at 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/BuildPipeline/Unity.Analyzers/Unity.Analyzers.Common.dll' but it wasn't
+VBCSCompilerPreWarmer: WARNING: Expected Unity analyzer DLL not found at 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/BuildPipeline/Unity.Analyzers/Unity.Analyzers.LongLiving.dll' but it wasn't
+VBCSCompilerPreWarmer: WARNING: Expected Unity analyzer DLL not found at 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll' but it wasn't
+VBCSCompilerPreWarmer: WARNING: Expected Unity analyzer DLL not found at 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll' but it wasn't
+VBCSCompilerPreWarmer: WARNING: Expected Unity analyzer DLL not found at 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll' but it wasn't
+VBCSCompilerPreWarmer: WARNING: No VBCSCompiler watchdog at "C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/UnityAutoQuitter.exe"
+VBCSCompilerPreWarmer: skipping the pre-warm, nothing would be watching the server
+VBCSCompiler prewarm took 3.05 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-BOLLAM SREEJA" at "2026-11-02T10:39:48.067898Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-02T10:39:48Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20512, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              1048a86381904051821fe89122c929dd
+  Correlation Id:          1730e8de47667a6f5dd96b32983ebca6
+  External correlation Id: 3930255664170553786
+  Machine Id:              pyXgUDl9NkuDhucMuhKkQdo7Imo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-BOLLAM SREEJA" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-BOLLAM SREEJA-notifications" at "2026-11-02T10:39:48.149862Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token WBI7M3TtWv...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469955011047-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+Error creating external process 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager.exe' : The system cannot find the path specified.
+Error cleaning up external process: The handle is invalid.
+[Package Manager] Cannot start server process [path: `C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager.exe`]
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-projectpath
+C:\Users\BOLLAM SREEJA\Downloads\Zig-Zag-Car-Mobile-Game-main\Zig-Zag-Car-Mobile-Game-main
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-BOLLAM SREEJA
+-hubSessionId
+c26b9a4d-ce32-442e-9bf2-6db4b2982783
+-accessToken
+WBI7M3TtWvxwQ0d6TnFbKEVm1DohlF4MuA5GhLCyFTU00cf
+Successfully changed project path to: C:\Users\BOLLAM SREEJA\Downloads\Zig-Zag-Car-Mobile-Game-main\Zig-Zag-Car-Mobile-Game-main
+C:/Users/BOLLAM SREEJA/Downloads/Zig-Zag-Car-Mobile-Game-main/Zig-Zag-Car-Mobile-Game-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [22320]  Target information:
+
+Player connection [22320]  * "[IP] 10.3.73.247 [Port] 55504 [Flags] 2 [Guid] 3565472577 [EditorId] 3565472577 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JP39HO4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22320] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22320] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Failed to load ASTC compressor library from astcenc-avx2
+[Package Manager] Server process restart attempt #2
+
+Error creating external process 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager.exe' : The system cannot find the path specified.
+Error cleaning up external process: The handle is invalid.
+[Package Manager] Cannot start server process [path: `C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager.exe`]
+[Package Manager] Could not find Unity Package Manager local server application at [C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager.exe]. Missing files could be the result of an antivirus action or a corrupt Unity installation.
+[Package Manager] Successfully launched diagnostics process
+[Package Manager] Diagnostics process finished after 0.00 seconds with exit code 1
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 1
